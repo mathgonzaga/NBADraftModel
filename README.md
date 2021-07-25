@@ -1,6 +1,6 @@
 # NBADraftModel 
 
-College Prospects NBA stats prediction using Machine Learning.
+College Prospects NBA stats prediction using Machine Learning in R.
 Developed by Matheus Gonzaga
 
 ## Introduction
