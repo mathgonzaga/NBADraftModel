@@ -65,6 +65,7 @@ basketball context
 - The validation strategy has an issue - even though it does use only players drafted in the past to predict a future draft class, the train set players stats are relative
 to their carreer up to the 2020-21 season, so the validation isn't 100% realistic.
 
+If you have any question or want to give any feedback, feel free to email me at matheusogonzaga@gmail.com
 
 
 ## 
