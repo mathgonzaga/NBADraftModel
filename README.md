@@ -47,11 +47,13 @@ like point per game were not modelled. The 10 final NBA variables predicted were
   - Opponent Rim FG%
 
 Each of the 10 models fitted use a different set of college stats related to the skill in question. E.g. for predicting a players Catch and Shoot 3PT%, his number of attempts 
-from three point range in college, his efficiency at them, his FT% and Mid Range% were valuable inputs, alongside his role in college Basketball, Number of years in college
+from three point range in college, his efficiency at them, his FT% and Mid Range% were valuable inputs, alongside his role in college basketball, number of years in college
 and height. 
-For the model validation, the strategy was a time split cross validation. First, the models were training using data from players drafted from 2010 to 2013, and tested on 2014 draft 
-class data. In sequence, the training set got from 2010 to 2014, and the test set was the 2015 class, etc. The data used for the final models used players from the 2010 to
-2017 drafts. The metrics calculated were MAE and MAPE for each time split. For the variables associated with scoring efficiency, the MAPE values were lower than 9%, whereas the
+
+For the model validation, the strategy was a time split cross validation. First, the models were training using data from players drafted from 2010 to 2013, and tested on 2014 draft class data. In sequence, the training set got from 2010 to 2014, and the test set was the 2015 class, etc. The data used for the final models used players from the 2010 to
+2017 drafts. 
+
+The metrics calculated were MAE and MAPE for each time split. For the variables associated with scoring efficiency, the MAPE values were lower than 9%, whereas the
 error was larger for the AST% , OREB% and DREB% models (from 15% to 30% MAPE).
 
 ## Points for future improvement
