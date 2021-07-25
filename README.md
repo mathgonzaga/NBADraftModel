@@ -1,6 +1,7 @@
 # NBADraftModel 
 
 College Prospects NBA stats prediction using Machine Learning in R.
+
 Developed by Matheus Gonzaga
 
 ## Introduction
@@ -25,7 +26,8 @@ modelling, validation and prediction of the 2021 Draft Class Players.
   '2021draft_projections.csv'
   - 4_visualization: generation of tables with the model metrics and the draft class prediction (the files metrics_table.png and projections.png are this script's outputs)
 - The data folder contains two folders:
-  - raw: contains all BartTovik college players data from 2010 to 2020, a dataset with Career LEBRON (metric by bball-index.com) from current players and a file from where
+- 
+  - raw: Datasets from BartTovik relative to stats from college players in the years between 2010 and 2020, a dataset with Career LEBRON (metric by bball-index.com) from current players and a file from where
   the names of 2021 draft college prospects were get.
   - intermediate: contains the cleaned and consolidated college and NBA data.
 
@@ -35,6 +37,7 @@ modelling, validation and prediction of the 2021 Draft Class Players.
 For the modelling, I used eXtreme Gradient Boosting for using college stats from his last college season to predict to predict a player's skill in 10 different variables
 associated with its quality of play in the NBA. I've tried to be the less context biased as possible, so stats highly dependent on usage, 
 like point per game were not modelled. The 10 final NBA variables predicted were:
+
   - Assist %
   - Offensive Rebound %
   - Defensive Rebound % 
